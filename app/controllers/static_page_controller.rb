@@ -3,4 +3,7 @@ class StaticPageController < ApplicationController
   end
   def contact
   end
+  def home
+    @gossip = Gossip.all
+  end
 end

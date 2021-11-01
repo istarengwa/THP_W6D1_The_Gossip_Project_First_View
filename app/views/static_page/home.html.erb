@@ -1,0 +1,19 @@
+<h1>Accueil</h1>
+
+<h2>Bienvenue sur le meilleur (pas fou fou) site de potin !!! </h2>
+
+<!-- GOSSIPS DISPLAY -->
+<div class="container-fluid">
+	<div class="row">
+		<% @gossip.each do |gossip| %>
+		<div class= "col-4 col-sm-4 col-md-4 col-lg-4 mt-5 text-center" > 
+			<div class="card" style="width: 18rem;">
+			  <div class="card-body">
+			    <h5 class="card-title"><%= link_to gossip.title, gossip_path(:id => gossip.id) %></h5>
+			    <p class="card-title">Un potin de : <%= gossip.user.first_name %></p>
+			  </div>
+			</div>
+		</div>
+		<% end %>
+	</div>
+</div>
