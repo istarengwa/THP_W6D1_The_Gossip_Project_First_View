@@ -15,5 +15,25 @@
  */
 
 h1{
-    color: red;
+    color: purple;
+}
+
+h2, .title_gossip{
+    color: blueviolet;
+}
+
+p{
+    color: violet;
+}
+
+.name{
+    color: tomato;
+}
+
+.content_gossip{
+    color: brown;
+}
+
+strong{
+    color: crimson;
 }
