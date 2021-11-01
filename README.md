@@ -1,24 +1,25 @@
-# README
+# The Gossip Project, les premières views
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Le Projet
 
-Things you may want to cover:
+Nous allons commencer aujourd'hui par créer les premières pages :
 
-* Ruby version
+* La page d'accueil, bien entendu. Cette page d'accueil affichera tous les potins créés
+* La page qui présente l'équipe de The Gossip Project, aka toi et ton binome
+* La page de contact où tu vas balancer une superbe adresse de contact
+* Une page de bienvenue, qui accueille l'utilisateur en fonction du nom passé dans l'URL
 
-* System dependencies
+Dans la page d'accueil, il sera possible de cliquer sur chaque potin pour en "Voir plus", ce qui aura pour effet d'aller sur la page du potin.
 
-* Configuration
+Enfin, puisque c'est toi, nous allons mettre du CSS dans le site, grâce notamment à Bootstrap.
 
-* Database creation
+* Rails version 5.2.6
+* Ruby version 2.7.4
 
-* Database initialization
+# Installation
 
-* How to run the test suite
+* bundle install
+* rails db:seed
+* rails server
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ce rendre sur le site : http://localhost:3000/
